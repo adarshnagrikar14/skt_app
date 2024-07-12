@@ -27,13 +27,13 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(new Intent(this, DashboardActivity.class));
                 overridePendingTransition(R.anim.scale_in, R.anim.fade_in);
                 finish();
-            }, 300);
+            }, 2000);
         } else {
             new Handler(Looper.getMainLooper()).postDelayed(() -> {
                 startActivity(new Intent(this, LoginActivity.class));
                 overridePendingTransition(R.anim.scale_in_simple, 0);
                 finish();
-            }, 400);
+            }, 2000);
         }
     }
 }
