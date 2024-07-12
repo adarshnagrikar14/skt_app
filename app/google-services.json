@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "9732883178",
+    "project_id": "skillup-skt",
+    "storage_bucket": "skillup-skt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9732883178:android:3c026fd08145cf4a024d93",
+        "android_client_info": {
+          "package_name": "com.skt.skillup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9732883178-ftrkmn59nts2o5lf7r1sfl9us2gf7ftl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skt.skillup",
+            "certificate_hash": "c5c37fc6464ca8124ddc8e4e863ee3373cc0c81e"
+          }
+        },
+        {
+          "client_id": "9732883178-6h7eb10ks9g5qkbdrk7c1atv8jefq3jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbMss61VipEyPbMG42mLgn1yLw9ZzT4LM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9732883178-6h7eb10ks9g5qkbdrk7c1atv8jefq3jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

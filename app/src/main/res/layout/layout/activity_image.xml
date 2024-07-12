@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ImageActivity">
+
+    <ImageView
+        android:id="@+id/imageUpload"
+        android:layout_width="200sp"
+        android:layout_height="300sp"
+        android:onClick="pickImage"
+        android:layout_centerInParent="true"
+        android:src="@color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageUpload"
+        android:layout_centerInParent="true"
+        android:onClick="uploadIt"
+        android:layout_margin="25sp"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

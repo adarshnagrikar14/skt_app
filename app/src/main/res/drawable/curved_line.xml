@@ -1,0 +1,12 @@
+<!-- res/drawable/curved_line.xml -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="#000000" />
+            <size android:height="200dp" /> <!-- Adjust the height of the curved line -->
+        </shape>
+    </item>
+</layer-list>

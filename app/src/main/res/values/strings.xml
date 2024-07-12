@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SkillUp</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="account">Account</string>
+    <string name="tasks">Tasks</string>
+    <string name="follow">Follow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="support_us">Support Us</string>
+    <string name="share">Share</string>
+    <string name="user_of_all_my_notes">User of SkillUp</string>
+    <string name="user_details">User details</string>
+    <string name="task">Task</string>
+    <string name="date">Date</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="the_help_provided_is_free_of_cost_but_the_cost_of_backend_services_is_not_however_small_if_possible_please_do_contribute_to_let_us_continue_the_help_for_free">The help provided is free of cost, but the cost of backend services is not. However small, if possible, please do contribute to let us continue the help for FREE.</string>
+    <string name="mentioned_below_is_the_vpa_or_upi_id_you_can_copy_that_and_contribute_through_your_way_nthank_you">Mentioned below is the VPA or UPI ID. You can copy that and contribute through your way.\nThank-you!</string>
+    <string name="a_nagrikar_paytm">a.nagrikar@paytm</string>
+    <string name="support_us_excl">Support us!</string>
+    <string name="my_bookmarks">My Bookmarks</string>
+    <string name="my_planner">My Planner</string>
+    <string name="time">Time</string>
+    <string name="string_quality">String Quality</string>
+    <string name="start_learning">Start Learning</string>
+</resources>

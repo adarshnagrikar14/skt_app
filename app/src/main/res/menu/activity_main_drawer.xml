@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_ic_img"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/account_ic_img"
+            android:title="@string/account" />
+
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/task_ic_img"
+            android:title="@string/tasks" />
+
+    </group>
+
+    <!--    <item android:title="@string/follow">-->
+    <!--        <menu>-->
+    <!--            <item-->
+    <!--                android:id="@+id/nav_follow_twitter"-->
+    <!--                android:icon="@drawable/x_ic_img"-->
+    <!--                android:title="Twitter" />-->
+    <!--        </menu>-->
+    <!--    </item>-->
+
+    <item android:title="Legals">
+        <menu>
+            <item
+                android:id="@+id/nav_t_and_c"
+                android:icon="@drawable/terms_and_c_ic_img"
+                android:title="Terms and Conditions" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/privacy_policy_ic_img"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/help_ic_img"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact_ic_img"
+                android:title="Contact" />
+        </menu>
+    </item>
+
+    <item android:title="Attributions">
+        <menu>
+            <item
+                android:id="@+id/nav_attributions"
+                android:icon="@drawable/attributions_ic_img"
+                android:title="Attributions" />
+        </menu>
+    </item>
+
+    <item android:title="Version">
+        <menu>
+            <item
+                android:id="@+id/nav_version"
+                android:title="1.0.0" />
+
+<!--            <item-->
+<!--                android:id="@+id/nav_task_sub"-->
+<!--                app:actionLayout="@layout/menu_item_layout"-->
+<!--                tools:ignore="MenuTitle" />-->
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.SkillUp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Secondary-->
+        <item name="colorSecondary">#9E80EC</item>
+        <item name="colorSecondaryVariant">#8971D6</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color-->
+        <item name="android:statusBarColor">@color/primary</item>
+
+        <!-- Status bar icon color-->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Font Family-->
+        <item name="fontFamily">@font/roboto</item>
+
+        <!-- BottomSheet Theme-->
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+    </style>
+
+    <style name="Theme.AllMyNotes" parent="Theme.SkillUp" />
+
+    <style name="Theme.AllMyNotes.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AllMyNotes.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+
+        <item name="android:layout_marginBottom">5sp</item>
+        <item name="android:layout_marginStart">3sp</item>
+        <item name="android:layout_marginEnd">3sp</item>
+
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/round_up</item>
+    </style>
+
+    <style name="switchCompat">
+        <item name="android:colorPrimary">@color/primary</item>
+    </style>
+
+</resources>
